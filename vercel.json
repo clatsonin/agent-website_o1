@@ -1,9 +1,15 @@
 {
   "version": 2,
   "builds": [
-    { "src": "sms.py", "use": "@vercel/python" }
+    {
+      "src": "sms.py",
+      "use": "@vercel/python"
+    }
   ],
   "routes": [
-    { "src": "/(.*)", "dest": "sms.py" }
+    {
+      "src": "/",
+      "dest": "sms.py"
+    }
   ]
 }
