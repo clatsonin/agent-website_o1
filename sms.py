@@ -1,5 +1,3 @@
-from urllib import request
-
 from flask import Flask
 app = Flask(__name__)
 from twilio.twiml.messaging_response import MessagingResponse
